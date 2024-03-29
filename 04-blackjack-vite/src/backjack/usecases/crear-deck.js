@@ -3,6 +3,10 @@ import _ from 'underscore';
 // Esta función crea un nuevo deck
 export const crearDeck = (tiposDeCarta, tipoEspeciales) => {
 
+    if(!tiposDeCarta || !tipoEspeciales) {
+        throw new Error('No se han proporcionado los tipos de cartas');
+    }
+
     let deck = [];
     
     for( let i = 2; i <= 10; i++ ) {
