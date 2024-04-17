@@ -6,3 +6,4 @@ export { asyncComponent } from './05-async.js';
 export { asyncAwaitComponent } from './06-async-await.js';
 export { asyncAwaitComponent2 } from './07-async-await.js';
 export { forAwaitComponent } from './08-for-await.js';
+export { generatorFunctionsComponent } from './09-generators.js';
